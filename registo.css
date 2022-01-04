@@ -1,0 +1,70 @@
+body { 
+    font-family: "Verdana", sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+ }
+
+header {display:flex;
+            vertical-align: top;
+            color:white;
+            justify-content: space-evenly;
+            background-color: #2b2b2b;
+            border-bottom: 1px solid #000000;
+            max-width:100%;}
+header #title { width:300px;
+               color:white;
+               padding-top: 0.9%;}
+header h1 .titulo { color:gold;}
+
+header h2{color:white;}
+header #navegacao {display:flex;
+            padding:0;
+            list-style-type:none;
+            padding-top: 20px;
+            width:60%;
+            justify-content: space-evenly;}
+header ul li a {color:white;}
+
+article { display:flex;
+            flex-wrap:wrap;
+            justify-content: space-evenly;}
+
+.registo h2 { text-align:center;}
+.registo #login { display:flex;
+            padding:0;
+            list-style-type:none;
+            width:300px;
+            margin:auto;
+            justify-content: space-around;}
+.registo #login li {
+   display: inline-block;
+   margin-bottom: 10px;}
+.registo #login li a {color:white;
+                     background-color:#347aeb;
+                     padding:0 20px 0 20px;
+                     border-radius:8px;
+                     text-align:center;
+                     line-height:42px;}
+a:link, a:visited, a:hover, a:active, a:focus{display:block;
+                     text-decoration: none;}
+
+#registar { margin-left: 39%;
+            margin-top: 10%;
+            background-color:#ffffff6b;
+            width:25%;}
+
+#registar h2 { padding-left: 33%;}
+#registar form { padding-left:5%;}
+#registar label { display:block;}
+
+footer {width: 100%;
+                        border: 1px solid gray;
+                        background-color: #e6e6e6;
+                        position:fixed;
+                        justify-content: space-evenly;
+                        bottom:0;}
+footer ul { display:flex;
+                           padding:0;
+                           list-style-type:none;
+                           justify-content: space-evenly;}
+footer p {text-align: right;}
