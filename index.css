@@ -62,6 +62,8 @@ a:link, a:visited, a:hover, a:active, a:focus{display:block;
                    text-decoration: none;}
 
 .pagina{ margin: 0px 25px 0px 25px;}
+.pagina #art { display:flex;
+                justify-content: space-evenly;}
 
 footer {position:relative;
   width: 100%;
