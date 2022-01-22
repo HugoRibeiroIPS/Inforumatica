@@ -1,8 +1,17 @@
+html { 
+  height: 100%;
+}
+
+
 body { 
   font-family: "Verdana", sans-serif;
   margin: 0;
   background-color: #f0f0f0;
+  
   min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  
 }
 
 header {width:100%;
@@ -60,6 +69,7 @@ article { display:flex;
                    text-align: left;}
 a:link, a:visited, a:hover, a:active, a:focus{display:block;
                    text-decoration: none;}
+#suporte {margin-bottom:1vh;}                   
 #suporte h2 {padding-left: 1%;}
 #suporte article {display:table;
                   padding-left: 5%;}
@@ -68,11 +78,10 @@ a:link, a:visited, a:hover, a:active, a:focus{display:block;
 #suporte textarea {resize:none;}
 footer {position:relative;
   width: 100%;
-     border-top: 1px solid gray;
-     background-color: #e6e6e6;
-     justify-content: space-evenly;
-     margin-top:41.2vh;
-     bottom:0;}
+  border-top: 1px solid gray;
+  background-color: #e6e6e6;
+  justify-content: space-evenly;
+  margin-top:auto;}
 footer ul { display:flex;
         padding:0;
         list-style-type:none;

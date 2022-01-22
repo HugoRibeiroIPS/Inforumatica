@@ -1,9 +1,18 @@
+html { 
+       height: 100%;
+}
+     
+     
 body { 
-    font-family: "Verdana", sans-serif;
-    margin: 0;
-    background-color: #f0f0f0;
-    min-height: 100vh;
-  }
+       font-family: "Verdana", sans-serif;
+       margin: 0;
+       background-color: #f0f0f0;
+       
+       min-height: 100vh;
+       display:flex;
+       flex-direction: column;
+       
+}
   
   header {width:100%;
             margin:0;
@@ -75,12 +84,11 @@ body {
 #login2 input { width:75%;}
 #login2 #button { padding:5px 15px 5px 15px;}                     
 footer {position:relative;
-                           width: 100%;
-                           border-top: 1px solid gray;
-                           background-color: #e6e6e6;
-                           justify-content: space-evenly;
-                           margin-top:22.4vh;
-                           bottom:0;}
+       width: 100%;
+       border-top: 1px solid gray;
+       background-color: #e6e6e6;
+       justify-content: space-evenly;
+       margin-top:auto;}
 footer ul { display:flex;
                               padding:0;
                               list-style-type:none;
