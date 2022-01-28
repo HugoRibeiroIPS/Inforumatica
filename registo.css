@@ -1,8 +1,3 @@
-html { 
-  height: 100%;
-}
-
-
 body { 
   font-family: "Verdana", sans-serif;
   margin: 0;
@@ -70,20 +65,19 @@ article { display:flex;
 a:link, a:visited, a:hover, a:active, a:focus{display:block;
                    text-decoration: none;}
 
-#registar { margin-left: 38%;
-            margin-top: 9%;
+#registar { margin:auto;
             background-color:#ffffff6b;
-            width:25%;
+            width: 25vmax;
             min-height: 30vh;
             border: 1px solid black;
             border-radius: 8px;
-            padding-bottom: 10px;
-            margin-bottom: 9%;}
+            padding-bottom: 10px;}
 #registar h2 { text-align: center;}
 #registar form { padding-left:5%;}
 #registar label { display:block;}
 #registar input { width:75%;}
-#registar #button { padding:5px 10px 5px 10px;}
+#registar #button { margin-top: 2vh;
+  padding:5px 10px 5px 10px;}
 
 footer {position:relative;
   width: 100%;
