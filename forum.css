@@ -51,7 +51,6 @@ article { display:flex;
             margin: auto;
             justify-content: space-evenly;}
 .registo #login li {
-   display: block;
    font-size: 2vmin;
    margin-bottom: 1px;}
 .registo #login li a {display:table;
@@ -64,7 +63,10 @@ article { display:flex;
                      text-align: left;}
 a:link, a:visited, a:hover, a:active, a:focus{display:block;
                      text-decoration: none;}
-.forum { margin: auto;
+.forum { margin-left: auto;
+         margin-right: auto;
+         margin-top: 1vh;
+         margin-bottom: 1vh;
          background-color:#ffffff6b;
          width:50%;
          font-size: 2vw;
@@ -91,4 +93,7 @@ footer ul { display:flex;
                               padding:0;
                               list-style-type:none;
                               justify-content: space-evenly;}
+footer a {text-decoration:none;
+          font-weight: bold;
+          color:#000000;}
 footer p {text-align: right;}                     

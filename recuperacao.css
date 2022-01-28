@@ -51,7 +51,6 @@ body {
             margin: auto;
             justify-content: space-evenly;}
   .registo #login li {
-   display: block;
    font-size: 2vmin;
    margin-bottom: 1px;}
   .registo #login li a {display:table;
@@ -64,19 +63,22 @@ body {
                      text-align: left;}
   a:link, a:visited, a:hover, a:active, a:focus{display:block;
                      text-decoration: none;}
-#login2 { margin-left: 38%;
+#login2 { margin-left:auto;
+          margin-right:auto;
           margin-top: 10%;
+          margin-bottom: 10%;
           background-color:#ffffff6b;
-          width:25%;
+          width:40vmax;
           min-height:20vh;
           border: 1px solid black;
           border-radius: 8px;
           padding-bottom: 10px;}
 #login2 a { max-width:75%;}            
-#login2 h2 { text-align: center;}
+#login2 h2 { text-align: center;
+       overflow-wrap: break-word;}
 #login2 form { padding-left:5%;}
 #login2 label { display:block;}
-#login2 input { width:75%;}
+#login2 input { width:90%;}
 #login2 #button { padding:5px 15px 5px 15px;}                     
 footer {position:relative;
        width: 100%;
@@ -88,4 +90,7 @@ footer ul { display:flex;
                               padding:0;
                               list-style-type:none;
                               justify-content: space-evenly;}
+footer a {text-decoration:none;
+       font-weight: bold;
+       color:#000000;}
 footer p {text-align: right;}                     

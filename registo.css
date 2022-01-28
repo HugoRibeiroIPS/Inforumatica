@@ -51,7 +51,6 @@ article { display:flex;
           margin: auto;
           justify-content: space-evenly;}
 .registo #login li {
- display: block;
  font-size: 2vmin;
  margin-bottom: 1px;}
 .registo #login li a {display:table;
@@ -65,17 +64,21 @@ article { display:flex;
 a:link, a:visited, a:hover, a:active, a:focus{display:block;
                    text-decoration: none;}
 
-#registar { margin:auto;
+#registar { margin-left:auto;
+            margin-right:auto;
+            margin-bottom: 6%;
+            margin-top: 6%;
             background-color:#ffffff6b;
             width: 25vmax;
             min-height: 30vh;
             border: 1px solid black;
             border-radius: 8px;
             padding-bottom: 10px;}
-#registar h2 { text-align: center;}
+#registar h2 { text-align: center;
+  overflow-wrap: break-word;}
 #registar form { padding-left:5%;}
 #registar label { display:block;}
-#registar input { width:75%;}
+#registar input { width:90%;}
 #registar #button { margin-top: 2vh;
   padding:5px 10px 5px 10px;}
 
@@ -89,4 +92,7 @@ footer ul { display:flex;
         padding:0;
         list-style-type:none;
         justify-content: space-evenly;}
+footer a {text-decoration:none;
+          font-weight: bold;
+          color:#000000;}
 footer p {text-align: right;}

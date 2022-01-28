@@ -36,10 +36,6 @@ header #navegacao {display:flex;
           justify-content: space-around;}
 header ul li a {color:white;
              margin: 5px;}
-
-article { display:flex;
-          flex-wrap:wrap;
-          justify-content: space-evenly;}
 .registo { max-width:15%;
        min-width: 15%;}
 .registo h2 { text-align:center;
@@ -51,7 +47,6 @@ article { display:flex;
           margin: auto;
           justify-content: space-evenly;}
 .registo #login li {
- display: block;
  font-size: 2vmin;
  margin-bottom: 1px;}
 .registo #login li a {display:table;
@@ -66,11 +61,15 @@ a:link, a:visited, a:hover, a:active, a:focus{display:block;
                    text-decoration: none;}
 #suporte {margin-bottom:1vh;}                   
 #suporte h2 {padding-left: 1%;}
-#suporte article {display:table;
+#suporte article {display:block;
                   padding-left: 5%;}
 #suporte article label {vertical-align: top;}
-#suporte article input {margin-left: 28%;}
+#suporte article input {
+  margin-left: 7.4em;
+                        }
 #suporte textarea {resize:none;}
+#suporte p {
+  font-size: 1rem;}
 footer {position:relative;
   width: 100%;
   border-top: 1px solid gray;
@@ -81,4 +80,7 @@ footer ul { display:flex;
         padding:0;
         list-style-type:none;
         justify-content: space-evenly;}
+footer a {text-decoration:none;
+  font-weight: bold;
+  color:#000000;}
 footer p {text-align: right;}
